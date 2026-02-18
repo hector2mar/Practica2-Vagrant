@@ -19,7 +19,6 @@ echo "=== Configurando permisos ==="
 chown -R www-data:www-data /var/www/html
 find /var/www/html/ -type d -exec chmod 755 {} \;
 find /var/www/html/ -type f -exec chmod 644 {} \;
-echo "=== Configurando Apache VirtualHost ==="
 echo "=== Configurando Apache VirtualHost desde archivo externo ==="
 cp /vagrant/config/wordpress.conf /etc/apache2/sites-available/wordpress.conf
 a2dissite 000-default.conf
