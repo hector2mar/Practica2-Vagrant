@@ -49,4 +49,4 @@ Comprobación de que PHP puede conectar a la base de datos:
 ### 🌐 4. Interfaz de WordPress
 Captura que muestra el acceso exitoso al asistente de configuración de WordPress a través del puerto mapeado (8080), confirmando que Apache, PHP y la conexión a MySQL funcionan en armonía.
 
-![WordPress Funcionando](capturas/wordpress.admin.png)
+![WordPress Funcionando](capturas/wordpress-admin.png)
