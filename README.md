@@ -45,3 +45,8 @@ Verificación de acceso desde la web a la DB con el cliente MySQL:
 ### 3. Prueba de conexión PHP (PDO)
 Comprobación de que PHP puede conectar a la base de datos:
 `php -r "new PDO('mysql:host=192.168.56.20;dbname=wordpress_db', 'wp_user', 'wp_secure_pass');"`.
+
+### 🌐 4. Interfaz de WordPress
+Captura que muestra el acceso exitoso al asistente de configuración de WordPress a través del puerto mapeado (8080), confirmando que Apache, PHP y la conexión a MySQL funcionan en armonía.
+
+![WordPress Funcionando](capturas/wordpress.admin.png)
